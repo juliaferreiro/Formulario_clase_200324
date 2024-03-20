@@ -103,6 +103,7 @@
             Controls.Add(lblVelocidad);
             Name = "frmDistancia";
             Text = "frmDistancia";
+            Load += frmDistancia_Load;
             ResumeLayout(false);
             PerformLayout();
         }

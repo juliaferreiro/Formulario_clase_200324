@@ -24,10 +24,15 @@ namespace Formulario_clase_200324
             v = int.Parse(txtVelocidad.Text);
             t = int.Parse(txtVelocidad.Text);
             D = v * t;
-            lblResultado.Text = D.ToString();
+            lblResultado.Text = "El resultado es " + D.ToString();
         }
 
         private void lblResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmDistancia_Load(object sender, EventArgs e)
         {
 
         }
