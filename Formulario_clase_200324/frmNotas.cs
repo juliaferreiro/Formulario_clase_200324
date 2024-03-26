@@ -29,11 +29,11 @@ namespace Formulario_clase_200324
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int nota1, nota2, nota3;
-            float promedio;
-            nota1 = int.Parse(txtNota1.Text);
-            nota2 = int.Parse(txtNota2.Text);
-            nota3 = int.Parse(txtNota3.Text);
+            double nota1, nota2, nota3;
+            double promedio;
+            nota1 = double.Parse(txtNota1.Text);
+            nota2 = double.Parse(txtNota2.Text);
+            nota3 = double.Parse(txtNota3.Text);
             promedio = (nota1 + nota2 + nota3) / 3;
             lblPromedio.Text = "El resultado es " + promedio.ToString();
         }
